@@ -146,12 +146,12 @@ p.quote {
 
 .callBlue {
     background-color: #3882F6;
-    padding: 10px 110px;
+    padding: 10px 100px;
     margin: 25px;
     border-radius: 10px;
     align-items: center;
     justify-content: space-between;
-    gap: 100px;
+    gap: 135px;
 }
 
 .callZero {
@@ -175,4 +175,8 @@ strong {
     justify-content: center;
     align-items: center;
     padding: 35px;
+}
+
+.copyright {
+    font-size: 16px;
 }
