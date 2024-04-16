@@ -47,9 +47,52 @@ ul {
     background-color: white;
     padding: 30px 100px;
     margin-top: 80px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     flex-direction: column;
     justify-content: center;
+}
+
+.call {
+    background-color: white;
+    justify-content: center;
+    padding: 75px auto;
+}
+
+.callBlue {
+    background-color: #3882F6;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.callZero {
+    flex-direction: column;
+    padding: 40px 25px;
+}
+
+.quote {
+    background-color:#E5E7EB;
+    flex-direction: column;
+    color:#1F2937;
+    margin: 0px;
+    padding: 100px 150px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+p.quote {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.speaker {
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: right;
 }
 
 .large {
@@ -105,4 +148,15 @@ button {
 
 .darkText {
     color:#1F2937;
+}
+
+strong {
+    font-size: 20px;
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
 }
