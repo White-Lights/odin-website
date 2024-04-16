@@ -1,9 +1,37 @@
+/* Below is the CSS for the body of the page */
+
 body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', sans-serif;
     background-color: #1F2937;
 }
+
+.container {
+    display: flex;
+    margin: 0;
+    padding: 50px 200px;
+}
+
+p {
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+}
+
+button {
+    width: 130px;
+    height: 37px;
+    border-radius: 10px;
+    color: white;
+    background-color: #3882F6;
+    font-weight: bold;
+    border: 2px solid #3882F6;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Below is the CSS for the header */
 
 .header {
     display: flex;
@@ -30,11 +58,7 @@ ul {
     margin: 5px 0px;
 }
 
-.container {
-    display: flex;
-    margin: 0;
-    padding: 50px 200px;
-}
+/* Below is the CSS for the about section */
 
 .container.about {
     flex-direction: column;
@@ -42,6 +66,15 @@ ul {
     padding: 0;
     padding-right: 50px;
 }
+
+.large {
+    margin: 0;
+    font-weight: 800;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+/* Below is the CSS for the images with explanation text beneath */
 
 .container.images {
     background-color: white;
@@ -52,76 +85,8 @@ ul {
     justify-content: center;
 }
 
-.call {
-    background-color: white;
-    justify-content: center;
-    padding: 75px auto;
-}
-
-.callBlue {
-    background-color: #3882F6;
-    margin: 0px;
-    padding: 0px;
-    border-radius: 10px;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.callZero {
-    flex-direction: column;
-    padding: 40px 25px;
-}
-
-.quote {
-    background-color:#E5E7EB;
-    flex-direction: column;
+.darkText {
     color:#1F2937;
-    margin: 0px;
-    padding: 100px 150px;
-    font-style: italic;
-    font-size: 36px;
-    font-weight: 300;
-}
-
-p.quote {
-    padding-bottom: 0px;
-    padding-top: 0px;
-}
-
-.speaker {
-    font-size: 28px;
-    font-weight: 500;
-    font-style: normal;
-    text-align: right;
-}
-
-.large {
-    margin: 0;
-    font-weight: 800;
-    font-size: 48px;
-    color: #F9FAF8;
-}
-
-p {
-    color: #E5E7EB;
-    font-size: 18px;
-    margin: 0;
-}
-
-button {
-    width: 130px;
-    height: 37px;
-    border-radius: 10px;
-    color: white;
-    background-color: #3882F6;
-    font-weight: bold;
-    border: 2px solid #3882F6;
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.whiteborder {
-    border: 2px solid white;
 }
 
 .imgContainer {
@@ -146,17 +111,68 @@ button {
     font-weight: 800;
 }
 
-.darkText {
+/* Below is the CSS for the Midge Maisel quote */
+
+.quote {
+    background-color:#E5E7EB;
+    flex-direction: column;
     color:#1F2937;
+    margin: 0px;
+    padding: 100px 175px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+p.quote {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+.speaker {
+    font-size: 28px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: right;
+}
+
+/* Below is the CSS for the prompting the viewer to sign up for the website */
+
+.call {
+    background-color: white;
+    justify-content: center;
+    padding: 75px 0px;
+}
+
+.callBlue {
+    background-color: #3882F6;
+    padding: 10px 110px;
+    margin: 25px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.callZero {
+    flex-direction: column;
+    padding: 40px 25px;
+}
+
+.whiteborder {
+    border: 2px solid white;
 }
 
 strong {
-    font-size: 20px;
+    font-size: 24px;
+    color:#F9FAF8;
 }
+
+/* Below is the CSS for the footer */
 
 .footer {
     text-align: center;
     justify-content: center;
     align-items: center;
-    padding: 40px;
+    padding: 35px;
 }
